@@ -111,12 +111,20 @@ button {
     background-color: #E5E7EB;
     color: #1F2937;
     width: 100vw;
-    height: 300px;
+    height: 400px;
     font-size: 26px;
+}
+
+#quote-text {
+    font-style: italic;
+    width: 800px;
 }
 
 #quote-author {
     font-weight: 900;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
 }
 
 .footer {
