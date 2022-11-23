@@ -102,6 +102,23 @@ button {
     font-size: 14px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    width: 100vw;
+    height: 300px;
+    font-size: 26px;
+}
+
+#quote-author {
+    font-weight: 900;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
