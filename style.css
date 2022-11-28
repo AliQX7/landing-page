@@ -47,7 +47,7 @@ a {
     text-overflow: ellipsis;
 }
 
-button {
+.hero-button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
@@ -82,7 +82,7 @@ button {
 .subtext-images {
     display: flex;
     justify-content: space-between;
-    margin: 30px 600px;
+    margin: 50px 600px;
 }
 
 .st-image {
@@ -127,7 +127,43 @@ button {
     margin-top: 20px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 100px 300px;
+    border-radius: 8px;
+    height: 250px;
+    width: 1400px;
+}
+
+.call-to-action .text {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 100px 200px;
+    color: white;
+    height: 50px;
+}
+
+.cta-header {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.cta-btn {
+    margin: 120px 200px 100px 0px;
+}
+
+.footer-btn {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 24px;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
 }
+
