@@ -139,7 +139,7 @@ a {
 .call-to-action .text {
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 100px;
     height: 50px;
     color: white;
     
